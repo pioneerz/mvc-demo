@@ -1,0 +1,53 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="body">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:background">@color/white_ffffff</item>
+    </style>
+
+    <style name="ll_linear">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:background">@color/white_ffffff</item>
+    </style>
+
+    <style name="tv_output">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/white_ffffff</item>
+        <item name="android:background">@color/gray_282828</item>
+        <item name="android:textSize">72sp</item>
+        <item name="android:gravity">right|bottom</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:maxLines">1</item>
+    </style>
+
+    <style name="btn_operand">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:textSize">40sp</item>
+        <item name="android:textColor">@color/black_585858</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@color/gray_d3d4d7</item>
+    </style>
+
+    <style name="btn_operate" parent="btn_operand">
+        <item name="android:background">@color/org_f89012</item>
+        <item name="android:textColor">@color/white_ffffff</item>
+    </style>
+
+</resources>
